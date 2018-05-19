@@ -1,0 +1,26 @@
+{
+  "name": "product-catalog-admin-express",
+  "version": "0.1.0",
+  "description": "Express.js admin server for Product Catalog Website project",
+  "author": "David Tsai <chiayu.tsai.personal@gmail.com>",
+  "private": false,
+  "dependencies": {
+    "connect-history-api-fallback": "^1.5.0",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "hbs": "^4.0.1",
+    "http-errors": "^1.6.3",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.5",
+    "dotenv-safe": "^5.0.1"
+  },
+  "scripts": {
+    "dev":
+      "cross-env NODE_ENV=development DEBUG=product-catalog-seeder-storyblok-server node ./bin/www",
+    "start": "npm run dev",
+    "prod": "cross-env NODE_ENV=production node ./bin/www"
+  }
+}
