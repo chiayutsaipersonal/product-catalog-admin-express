@@ -1,0 +1,7 @@
+{
+  "name": "product-catalog-admin-express",
+  "description": "Express.js admin server for Product Catalog Website project",
+  "repository":
+    "https://github.com/chiayutsaipersonal/product-catalog-admin-express.git",
+  "website": "https://product-catalog-admin.herokuapp.com"
+}

@@ -6,7 +6,7 @@
 const prodMode = process.env.NODE_ENV === "production"
 if (!prodMode) require("dotenv-safe").config()
 
-var app = require("../app")
+var app = require("../server")
 var debug = require("debug")("projects:server")
 var http = require("http")
 
