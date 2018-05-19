@@ -4,6 +4,9 @@
   "description": "Express.js admin server for Product Catalog Website project",
   "author": "David Tsai <chiayu.tsai.personal@gmail.com>",
   "private": false,
+  "engines": {
+    "node": "8.11.1"
+  },
   "dependencies": {
     "connect-history-api-fallback": "^1.5.0",
     "cookie-parser": "^1.4.3",
