@@ -1,0 +1,15 @@
+{
+  "restartable": "rs",
+  "execMap": {},
+  "colors": true,
+  "ext": "js hbs",
+  "delay": 200,
+  "watch": ["."],
+  "ignore": [],
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": 3001
+  },
+  "runOnChangeOnly": false,
+  "verbose": false
+}

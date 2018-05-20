@@ -18,10 +18,11 @@
   },
   "devDependencies": {
     "cross-env": "^5.1.5",
-    "dotenv-safe": "^5.0.1"
+    "dotenv-safe": "^5.0.1",
+    "nodemon": "^1.17.4"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development DEBUG=express:* node ./bin/www",
+    "dev": "cross-env NODE_ENV=development DEBUG=express:* nodemon ./bin/www",
     "prod": "cross-env NODE_ENV=production node ./bin/www",
     "start": "npm run dev"
   }
