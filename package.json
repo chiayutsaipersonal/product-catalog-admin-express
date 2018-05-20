@@ -21,9 +21,8 @@
     "dotenv-safe": "^5.0.1"
   },
   "scripts": {
-    "dev":
-      "cross-env NODE_ENV=development DEBUG=product-catalog-seeder-storyblok-server node ./bin/www",
-    "start": "npm run dev",
-    "prod": "cross-env NODE_ENV=production node ./bin/www"
+    "dev": "cross-env NODE_ENV=development DEBUG=express:* node ./bin/www",
+    "prod": "cross-env NODE_ENV=production node ./bin/www",
+    "start": "npm run dev"
   }
 }
