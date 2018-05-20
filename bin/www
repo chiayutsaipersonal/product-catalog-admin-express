@@ -3,8 +3,6 @@
 /**
  * Module dependencies.
  */
-const prodMode = process.env.NODE_ENV === 'production'
-if (!prodMode) require('dotenv-safe').config()
 
 const app = require('../server')
 const debug = require('debug')('projects:server')
